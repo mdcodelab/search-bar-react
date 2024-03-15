@@ -40,14 +40,28 @@ position: relative;
   width: 100%;
 }
 
-.icon {
-  position: absolute;
-  right: 1rem;
-  top: 0;
-  font-size: 2rem;
-
-
+.results {
+  margin-top: 1.5rem;
+  width: 300px;
+  max-height: 300px;
+  overflow-y: scroll;
+  background: #fff;
 }
+
+a {
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  color: black;
+  margin-bottom: 0.5rem;
+}
+
+a:hover {
+  background: purple;
+  color: #fff;
+}
+
+
 
 
 
