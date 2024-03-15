@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+.app {
+  width: 100vw;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
+  font-family: "Nunito", sans-serif;
+  background-image: linear-gradient(90deg, #410076, #8820dd);
+}
+body {
+  padding: 0;
+  margin: 0; box-sizing: border-box;
+}
+
+.search {
+  margin-top: 100px;
+}
+
+h2 {
+  text-align: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: #fff;
+  letter-spacing: 0.15rem;
+  margin-bottom: 1.5rem;
 }
 
-.App-link {
-  color: #61dafb;
+.searchInputs {
+width: 300px;
+height: max-content;
+position: relative;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.searchInputs input {
+  background-color: #fff;
+  border: 0;
+  border-radius: 2px;
+  font-size: 18px;
+  padding: 15px 0;
+  width: 100%;
 }
+
+.icon {
+  position: absolute;
+  right: 1rem;
+  top: 0;
+  font-size: 2rem;
+
+
+}
+
+
+
